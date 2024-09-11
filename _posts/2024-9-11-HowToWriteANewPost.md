@@ -10,7 +10,7 @@ pin: true
 
 ## 如何写一篇文章
 
-**主题教程:**[Writing a New Post | Chirpy (cotes.page)](https://chirpy.cotes.page/posts/write-a-new-post/)
+**主题教程:** [Writing a New Post](https://chirpy.cotes.page/posts/write-a-new-post/)
 
 ### 创建文章Markdown文件
 
@@ -20,6 +20,8 @@ pin: true
 
 - 格式如下:
 
+  - 可查看主题教程: [front matter](https://chirpy.cotes.page/posts/write-a-new-post/#front-matter)
+  
   - ```yaml
     ---
     title: TITLE # 文章标题
@@ -30,8 +32,19 @@ pin: true
     comments: true # 默认开启文章评论，若要关闭则填写false
     ---
     ```
-
-    
+  
+  - 作者id的添加:
+  
+    - 可查看主题教程: [author information](https://chirpy.cotes.page/posts/write-a-new-post/#author-information)
+  
+    - 在 `_data/authors.yaml`下，添加格式如下的内容
+  
+    - ```yaml
+      <author_id>:
+      	name: <author_id>
+      	url: https://github/<author_id> # 可以是其他的链接
+      ```
+  
 
 ### 使用Markdown语法编写正文
 
